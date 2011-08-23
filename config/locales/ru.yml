@@ -1,0 +1,12 @@
+ru:
+  application:
+    title: "Пример приложения на Ruby on Rails"
+    pages:
+      home:
+        title: "Домашняя страница"
+      about:
+        title: "О приложении"
+      help:
+        title: "Помощь"
+      contact:
+        title: "Контакты"

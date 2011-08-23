@@ -1,5 +1,13 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  application:
+    title: "Ruby on Rails sample application"
+    pages:
+      home:
+        title: "Home"
+      about:
+        title: "About"
+      help:
+        title: "Help"
+      contact:
+        title: "Contacts"
+      
