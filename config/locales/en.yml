@@ -10,5 +10,8 @@ en:
         title: "Help"
       contact:
         title: "Contacts"
+    users:
+      new:
+        title: "Sign Up"
     logo:
       alt: "Simple Application"

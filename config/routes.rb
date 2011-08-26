@@ -1,4 +1,7 @@
 SimpleApp::Application.routes.draw do
+  
+  get "users/new"
+  
   match '/home',    :to => "pages#home"
 
   match '/contact', :to => "pages#contact"
@@ -6,6 +9,8 @@ SimpleApp::Application.routes.draw do
   match '/about',   :to => "pages#about"
 
   match '/help',    :to => "pages#help"
+  
+  match '/signup',  :to => "users#new"
   
   root :to => "pages#home"
 
